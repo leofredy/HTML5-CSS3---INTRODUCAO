@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #000000;
+}
+h1 {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+h1, p {
+    color: #FFF;
+}
+p {
+    background-color: #000;
+    padding: 10px;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    padding: 20px 10px 20px 10px;
+}
+
+a:hover{
+    background-color: #FFF;
+    color: rgb(66, 65, 65);
+}
+.row-treinaweb-header {
+    position: relative;
+
+}
+.treinaweb-ancora{
+    position: absolute;
+    top: -85px;
+}
+.colmun-treinaweb-navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0 10px 0 10px;
+    background-color: rgb(66, 65, 65);
+}
+.row-treinaweb-item {
+    display: inline-block;
+}
+.video-treinaweb-header {
+    width: 100%;
+}
+.container-treinaweb-main-lugar {
+    position: relative;
+    background-image: url('./assets/bar_interior.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+}
+.treinaweb-main-lugar { 
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.container-treinaweb-main-drinks {
+    position: relative;
+    height: 100%;
+    background-image: url('./assets/drinks_background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+.treinaweb-main-drinks {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.treinaweb-main-drinks-image {
+    max-width: 30%;
+}
+.row-container-treinaweb-footer{
+    position: relative;
+}
+.colmun-treinaweb-footer-endereco {
+    display: inline-block;
+    padding: 40px; 
+    margin: 0 30px 0 30px;
+}
+h1.treinaweb-footer-endereco-informacoes {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.treinaweb-footer-endereco-informacoes {
+    margin-bottom: 5px;
+    text-align: start;
+    font-size: 12px;
+    color: #FFF;
+}
